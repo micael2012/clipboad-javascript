@@ -1,0 +1,36 @@
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.copsenha{
+   display: flex;
+   align-items: center;
+   background-color: #212121;
+   border-radius: 5px;
+
+}
+#link{
+    width: 350px;
+    padding:12px  10px;
+    border: 1px solid #212121;
+    background-color: aliceblue;
+    border-radius: 5px;
+    font-size: 19px;
+    overflow: scroll;
+    /* color: #fff; */
+}
+#link::-webkit-scrollbar {
+    display: none;
+}
+
+#copia-btn{
+    
+    color: #fff;
+    padding: 0 20px;
+    font-size: 18px;
+    cursor: pointer;
+
+}
